@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Parallel parallel.cpp)
 add_executable(Parallel_naive parallel_naive.cpp)
+add_executable(Mandelbrodt mandelbrodt.cpp)
