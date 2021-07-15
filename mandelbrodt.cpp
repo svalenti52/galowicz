@@ -45,7 +45,7 @@ static auto mandelbrodt_iterations(cmplx c)
 {
 	cmplx z{};
 	size_t iterations{0};
-	const size_t max_iterations{1000};
+	const size_t max_iterations{1'000};
 	while (abs(z) < 2 && iterations < max_iterations)
 	{
 		++iterations;
